@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import "../stylesheet/style.css";
+// import "../stylesheet/style.css";
 import Layout from "../components/Layout";
 
 const Signup = () => (
