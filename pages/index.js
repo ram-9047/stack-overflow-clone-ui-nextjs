@@ -189,9 +189,9 @@ const Index = () => (
       {/* texting */}
 
       <div className="bg-blue-C pt-32 pb-16">
-        <div className="text-center relative  container">
+        <div className="text-center relative">
           <div className="justify-around">
-            <h2 className="text-white text-4xl  ml-48">
+            <h2 className="text-white text-4xl ">
               Unlock siloed knowledge with Stack Overflow for Teams
             </h2>
           </div>
@@ -200,77 +200,204 @@ const Index = () => (
               <div className=" ml-48  w-20 h-2 bg-orange-550"></div>
             </div>
           </div>
-          <div className="ml-56 mt-4">
+          <div className="ml-40 mt-4">
             <p className="text-white w-6/12 ml-64">
               Wikis, chat messages, or formal documentation for knowledge
               management aren’t effective. Our question and answer format is a
               proven approach for accessing the right information in less time.
             </p>
           </div>
-          <button className="bg-orange-450 text-center ml-48 mt-4 px-4 py-2 text-white">
+          <button className="bg-orange-450 text-center ml-12 mt-4 px-4 py-2 text-white">
             Learn more
           </button>
-          <div className="flex content-center mx-4 ml-40 mt-8">
+          <div className="flex content-center px-4 mt-4">
             {/* this is one div */}
-            <div className="content-center bg-white mt-32 w-1/2 m-8 py-8 px-4 shadow-xl hover:shadow-2xl">
+            <div className=" bg-white rounded-md mt-32 w-2/3 m-8 py-8 shadow-xl hover:shadow-2xl">
               <div className="box-border">
                 <div className="mx-20">
-                  <img
-                    src="https://cdn.sstatic.net/Img/home/public-qa.svg?v=d82acaa7df9f"
-                    alt="public Q&A logo"
-                  />
+                  <h4 className="text-blue-C text-2xl">Basic</h4>
                 </div>
-                <h4 className="text-2xl my-4">Public Q & A</h4>
-                <p className="mb-4">
-                  Get answers to more than 16.5 million questions and give back
-                  by sharing your knowledge with others.{" "}
-                  <span className="text-orange-450">Sign up</span> for an
-                  account.
-                </p>
-                <button className="border bg-blue-700 box-border px-8 py-4 text-white">
-                  Browse Wuestions
-                </button>
+                <span className="text-xm">
+                  Private knowledge base for teams
+                </span>
+                <div className="bg-gray-300 mt-4 w-full h-px"></div>
+                <div className="flex">
+                  <div className="text-5xl mt-4 ml-4"> $5</div>
+                  <div className="w-48 text-xs mt-8 -ml-2">
+                    per teammate / month billed annually
+                  </div>
+                </div>
+                <div className="text-left mt-3">
+                  <p className="flex content-start">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Free 30 day trial</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5 className=" w-64">
+                      Your own private space hosted on stackoverflow.com
+                    </h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Fully searchable archive</h5>
+                  </p>
+                </div>
+                <div>
+                  <button className="bg-gray-200 mt-4 text-blue-C text-m px-24 font-semibold py-2 rounded-md hover:bg-gray-400">
+                    Get started for free
+                  </button>
+                </div>
               </div>
             </div>
             {/* uptop this */}
             {/* this is one div */}
-            <div className="content-center bg-white mt-16  w-1/2 m-8 shadow-xl hover:shadow-2xl py-8 px-4">
+            <div className="content-center bg-white mt-20 rounded-md w-2/3 m-8 py-8 shadow-xl hover:shadow-2xl">
               <div className="box-border">
                 <div className="mx-20">
-                  <img
-                    src="https://cdn.sstatic.net/Img/home/private-qa.svg?v=2c1de180b6d7"
-                    alt="public Q&A logo"
-                  />
+                  <h4 className="text-blue-C text-2xl">Business</h4>
                 </div>
-                <h4 className="text-2xl my-4">Private Q & A</h4>
-                <p className="mb-4">
-                  Level up with Stack Overflow while you work. Share knowledge
-                  privately with your coworkers using our flagship Q&A engine.
-                </p>
-                <button className="border bg-orange-450 box-border px-8 py-4 text-white">
-                  Try for free
-                </button>
+                <span className="text-xm">
+                  Private knowledge base with SSO and premium features
+                </span>
+                <div className="bg-gray-300 mt-4 w-full h-px"></div>
+                <div className="flex">
+                  <div className="text-5xl mt-4 ml-4"> $12</div>
+                  <div className="w-48 text-xs mt-8 -ml-2">
+                    per teammate / month billed annually
+                  </div>
+                </div>
+                <div className=" mt-8">
+                  <p className="flex content-start">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>All the features of Basic</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5 className="-ml-4 w-64">
+                      Single sign-on (SSO) with SAML
+                    </h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Reporting and analytics</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Priority customer support</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>99.5% uptime</h5>
+                  </p>
+                </div>
+                <div>
+                  <button className="bg-gray-200 mt-4 text-blue-C text-m px-24 font-semibold py-2 rounded-md hover:bg-gray-400">
+                    Request a demo
+                  </button>
+                </div>
               </div>
             </div>
             {/* uptop this */}
             {/* this is one div */}
-            <div className="content-center bg-transparent text-white border border-white-500 w-1/2 m-8 shadow-xl hover:shadow-2xl py-8 px-4">
+            <div className="content-center text-white border rounded-md w-2/3 m-8 py-8 shadow-xl hover:shadow-2xl">
               <div className="box-border">
                 <div className="mx-20">
-                  <img
-                    src="https://cdn.sstatic.net/Img/home/jobs.svg?v=931d6c0863ee"
-                    alt="public Q&A logo"
-                  />
+                  <h4 className=" text-2xl">Enterprise</h4>
                 </div>
-                <h4 className="text-2xl my-4">Browse jobs</h4>
-                <p className="mb-4">
-                  Find the right job through high quality listings and search
-                  for roles based on title, technology stack, salary, location,
-                  and more.
-                </p>
-                <button className="border bg-blue-700 box-border px-8 py-4 text-white">
-                  Find a job
-                </button>
+                <div className="mx-8 mt-2">
+                  <span className="text-xm  border-box">
+                    Standalone knowledge base with enhanced security and
+                    flexible hosting
+                  </span>
+                </div>
+                <div className="bg-gray-300 mt-4 w-full h-px"></div>
+                <h2 className="-ml-48 mt-4 text-2xl">Custom Pricing</h2>
+                <div className=" mt-4 mr-12 text-left ">
+                  <p className="flex ">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>
+                      Host on your cloud or servers – or our private managed
+                      cloud
+                    </h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Single sign-on with AD or SAML</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>Robust read and write API</h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>
+                      Your own customer success and community building
+                      representative
+                    </h5>
+                  </p>
+                  <p className="flex">
+                    <img
+                      src="https://static.thenounproject.com/png/317777-200.png"
+                      alt="tick-logo"
+                      className="h-4 ml-4 w-4 mt-1 mr-2"
+                    />
+                    <h5>99.5% uptime SLA and priority support</h5>
+                  </p>
+                </div>
+                <div>
+                  <button className="bg-custom-yellow hover:bg-yellow-600 mt-8 text-blue-C text-m px-24 font-semibold py-2 rounded-md hover:bg-gray-400">
+                    Request a demo
+                  </button>
+                </div>
               </div>
             </div>
             {/* uptop this */}
