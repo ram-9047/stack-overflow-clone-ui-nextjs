@@ -404,8 +404,50 @@ const Index = () => (
           </div>
         </div>
       </div>
-
       {/* upto this */}
+
+      <div className="bg-pink-white-100">
+        <div className="flex ml-48  py-24 w-4/5">
+          <div className="ml-4">
+            <img
+              src="https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3"
+              width="76"
+            />
+            <h4 className="text-3xl py-2 font-bold">
+              Hire your technical talent
+            </h4>
+            <p>
+              We help expand your technical hiring strategy to promote your
+              employer brand and highlight relevant open roles to our community
+              of 50 million monthly visitors.
+            </p>
+            <div className="mt-4 px-4 -pl-2 bg-orange-550 w-48 rounded-sm py-2 text-white">
+              <a href="https://stackoverflow.com/talent" className="">
+                Stack Overflow Talent
+              </a>
+            </div>
+          </div>
+          <div className=" mr-8">
+            <img
+              src="https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02"
+              width="76"
+            />
+            <h4 className="text-3xl py-2 font-bold">
+              Reach developers worldwide
+            </h4>
+            <p>
+              Use the world’s largest resource for people who code to help you
+              increase awareness and showcase your product or service across
+              Stack Overflow’s network of Q&A sites.
+            </p>
+            <div className="mt-4 px-4 -pl-2 bg-orange-550 w-56 rounded-sm py-2 text-white">
+              <a href="https://stackoverflow.com/talent" className="">
+                Stack Overflow Advertising
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* <h2 className="text-center text-3xl mt-20">Sign Up</h2>
       <div className="text-center cursor-pointer">
