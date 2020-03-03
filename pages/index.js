@@ -402,6 +402,29 @@ const Index = () => (
             </div>
             {/* uptop this */}
           </div>
+          <div className="flex justify-center  text-white-900">
+            <div className="flex text-white cursor-pointer">
+              <img
+                src="https://cdn.sstatic.net/Img/teams/endorsements/g2.svg?v=670bf9279910"
+                alt="..."
+              />
+              <strong className="mx-2">Laeder</strong> Fall 2019
+            </div>
+            <div className="flex text-white mx-12 cursor-pointer">
+              <img
+                src="https://cdn.sstatic.net/Img/teams/endorsements/g2.svg?v=670bf9279910"
+                alt="..."
+              />
+              <strong className="mx-2">Users love us</strong>
+            </div>
+            <div className="flex text-white cursor-pointer">
+              <img
+                src="https://cdn.sstatic.net/Img/teams/endorsements/fastco.svg?v=5ebc802a76c7"
+                alt="..."
+              />
+              <strong className="mx-2">Most Innovative Companies</strong> 2019
+            </div>
+          </div>
         </div>
       </div>
       {/* upto this */}
