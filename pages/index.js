@@ -663,6 +663,63 @@ class Index extends React.Component {
               </div>
             </div>
           </div>
+          <div className="bg-blue-100 pt-24 pb-40 pl-16">
+            <h2 className="text-3xl font-bold">Looking for a job?</h2>
+            <div className="flex  mr-16 mt-8">
+              <div className="">
+                <button className="flex bg-white rounded-md px-3 py-4 w-64 mr-8">
+                  <img
+                    src="https://cdn.sstatic.net/Img/home/jobs-tech.svg?v=42f011c01763"
+                    alt="test"
+                    className="h-16 w-16"
+                  />
+                  <div className="m-auto">Browse jobs by technology</div>
+                </button>
+              </div>
+              <div className="">
+                <button className="flex bg-white rounded-md px-3 py-4  mr-8">
+                  <img
+                    src="https://cdn.sstatic.net/Img/home/jobs-salary.svg?v=401840ff8931"
+                    alt="test"
+                    className="h-16 w-16"
+                  />
+                  <div className="m-auto px-2">Browse jobs by salary</div>
+                </button>
+              </div>
+              <div className="">
+                <button className="flex bg-white rounded-md px-3 py-4 w-64 mr-8">
+                  <img
+                    src="https://cdn.sstatic.net/Img/home/jobs-visa.svg?v=1f3acc6dc772"
+                    alt="test"
+                    className="h-16 w-16"
+                  />
+                  <div className="m-auto">Browse jobs by visa sponsorship</div>
+                </button>
+              </div>
+              <div className="">
+                <button className="flex bg-white rounded-md px-3 py-4 w-64">
+                  <img
+                    src="https://cdn.sstatic.net/Img/home/jobs-remote.svg?v=a4b4d1b5a80c"
+                    alt="test"
+                    className="h-16 w-16"
+                  />
+                  <div className="m-auto"> Browse remote-friendly jobs</div>
+                </button>
+              </div>
+              <div className="m-auto">
+                <button className="bg-orange-550 px-4 py-2 rounded-md">
+                  View all jobs
+                </button>
+              </div>
+            </div>
+            <div className="w-16 h-16 absolute right-0 mt-24 mr-8">
+              <img
+                src="https://cdn.sstatic.net/Img/home/robot.svg?v=dfa16a330cbd"
+                alt="robot"
+                className=""
+              />
+            </div>
+          </div>
         </div>
       </Layout>
     );
