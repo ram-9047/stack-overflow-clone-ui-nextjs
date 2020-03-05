@@ -738,100 +738,134 @@ class Index extends React.Component {
               <h2 className=" text-gray-300 pt-4 hover:text-white">
                 STACK OVERFLOW
               </h2>
-
-              <button className="w-full pt-4 text-left text-gray-600 hover:text-white">
-                Questions
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Jobs
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Developer Jobs Directory
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Salary Calculator
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Help
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Mobile
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Disable Responsiveness
-              </button>
+              <li className="list-none">
+                <a className="w-full pt-4  text-left text-gray-600 hover:text-white">
+                  Questions
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Jobs
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Developer Jobs Directory
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Salary Calculator
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Help
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Mobile
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Disable Responsiveness
+                </a>
+              </li>
             </div>
-            <div className="text-white block w-1/4 text-sm text-left">
+            <div className="text-white block mr-24 text-sm text-left">
               <h2 className=" text-gray-300 pt-4 hover:text-white">PRODUCTS</h2>
-              <button className="w-full pt-3 text-left text-gray-600 hover:text-white">
-                Teams
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Talent
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Advertising
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Enterprise
-              </button>
-            </div>
-            <div className="text-white text-sm block">
-              <h2 className=" text-gray-300 pt-4 hover:text-white">COMPANY</h2>
-
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                About
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Press
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Work Here
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Legal
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Privacy Policy
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Contact Us
-              </button>
+              <li className="list-none">
+                <a className="w-full pt-3 text-left text-gray-600 hover:text-white">
+                  Teams
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Talent
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Advertising
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Enterprise
+                </a>
+              </li>
             </div>
             <div className="text-white text-sm ">
+              <h2 className=" text-gray-300 pt-4 hover:text-white">COMPANY</h2>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  About
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Press
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Work Here
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Legal
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Privacy Policy
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Contact Us
+                </a>
+              </li>
+            </div>
+            <div className="text-white text-sm ml-20 ">
               <h2 className=" text-gray-300 pt-4 hover:text-white">
                 STACK EXCHANGE NETWORK
               </h2>
-              <button className="w-full pt-3 text-left text-gray-600 hover:text-white">
-                Technology
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Life/Arts
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Culture/Recreation
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Science
-              </button>
-              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
-                Other
-              </button>
+              <li className="list-none">
+                <a className="w-full pt-3 text-left text-gray-600 hover:text-white">
+                  Technology
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Life/Arts
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Culture/Recreation
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Science
+                </a>
+              </li>
+              <li className="list-none">
+                <a className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                  Other
+                </a>
+              </li>
             </div>
             <div className="w-1/3 text-white pt-4 text-xs">
               <div>
-                <button className="mx-2 text-gray-600 hover:text-white">
-                  Blog
-                </button>
-                <button className="mx-2 text-gray-600 hover:text-white">
-                  Facebook
-                </button>
-                <button className="mx-2 text-gray-600 hover:text-white">
-                  Twitter
-                </button>
-                <button className="mx-2 text-gray-600 hover:text-white">
-                  LinkedIn
-                </button>
+                <a className="mx-2 text-gray-600 hover:text-white">Blog</a>
+                <a className="mx-2 text-gray-600 hover:text-white">Facebook</a>
+                <a className="mx-2 text-gray-600 hover:text-white">Twitter</a>
+                <a className="mx-2 text-gray-600 hover:text-white">LinkedIn</a>
               </div>
               <p className="mt-40 text-gray-600">
                 site design / logo © 2020 Stack Exchange Inc; user contributions
