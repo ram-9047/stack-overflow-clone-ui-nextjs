@@ -27,6 +27,7 @@ class Index extends React.Component {
   handleOnClick = index => {
     this.setState({ activeIndex: index });
   };
+
   render() {
     return (
       <Layout>
@@ -720,90 +721,129 @@ class Index extends React.Component {
               />
             </div>
           </div>
+          <div className="bg-gray-900 px-20 flex  py-4">
+            <div>
+              <svg
+                class="svg-icon native iconLogoGlyphMd h-10 w-10 mr-12"
+                viewBox="0 0 32 37"
+              >
+                <path d="M26 33v-9h4v13H0V24h4v9h22z" fill="#BCBBBB"></path>
+                <path
+                  d="M21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM26 18.4L13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm14 10.79l.68-2.95-16.1-3.35L7 23l16.1 2.99zM23 30H7v-3h16v3z"
+                  fill="#F48024"
+                ></path>
+              </svg>
+            </div>
+            <div className="text-white text-sm w-1/4">
+              <h2 className=" text-gray-300 pt-4 hover:text-white">
+                STACK OVERFLOW
+              </h2>
+
+              <button className="w-full pt-4 text-left text-gray-600 hover:text-white">
+                Questions
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Jobs
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Developer Jobs Directory
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Salary Calculator
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Help
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Mobile
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Disable Responsiveness
+              </button>
+            </div>
+            <div className="text-white block w-1/4 text-sm text-left">
+              <h2 className=" text-gray-300 pt-4 hover:text-white">PRODUCTS</h2>
+              <button className="w-full pt-3 text-left text-gray-600 hover:text-white">
+                Teams
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Talent
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Advertising
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Enterprise
+              </button>
+            </div>
+            <div className="text-white text-sm block">
+              <h2 className=" text-gray-300 pt-4 hover:text-white">COMPANY</h2>
+
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                About
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Press
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Work Here
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Legal
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Privacy Policy
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Contact Us
+              </button>
+            </div>
+            <div className="text-white text-sm ">
+              <h2 className=" text-gray-300 pt-4 hover:text-white">
+                STACK EXCHANGE NETWORK
+              </h2>
+              <button className="w-full pt-3 text-left text-gray-600 hover:text-white">
+                Technology
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Life/Arts
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Culture/Recreation
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Science
+              </button>
+              <button className="w-full pt-2 text-left text-gray-600 hover:text-white">
+                Other
+              </button>
+            </div>
+            <div className="w-1/3 text-white pt-4 text-xs">
+              <div>
+                <button className="mx-2 text-gray-600 hover:text-white">
+                  Blog
+                </button>
+                <button className="mx-2 text-gray-600 hover:text-white">
+                  Facebook
+                </button>
+                <button className="mx-2 text-gray-600 hover:text-white">
+                  Twitter
+                </button>
+                <button className="mx-2 text-gray-600 hover:text-white">
+                  LinkedIn
+                </button>
+              </div>
+              <p className="mt-40 text-gray-600">
+                site design / logo © 2020 Stack Exchange Inc; user contributions
+                licensed under cc by-sa 4.0 with attribution required. rev
+                2020.3.3.36178
+              </p>
+            </div>
+          </div>
         </div>
       </Layout>
     );
   }
 }
-({
-  /* <h2 className="text-center text-3xl mt-20">Sign Up</h2>
-      <div className="text-center cursor-pointer">
-        <span className="text-xs ml20  text-yellow-600">
-          <Link href="/signin">Already have account</Link>
-        </span>
-      </div>
-
-      <form className="w-2/4 items-center  content-around ml-64 ">
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3 ">
-            <label
-              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-              for="inline-full-name"
-            >
-              Full Name
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-              id="inline-full-name"
-              type="text"
-              placeholder="Rock Hobbs"
-            />
-          </div>
-        </div>
-
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-              for="inline-full-name"
-            >
-              Email
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-              id="inline-full-name"
-              type="email"
-              placeholder="example@email.com"
-            />
-          </div>
-        </div>
-
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-              for="inline-username"
-            >
-              Password
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-              id="inline-username"
-              type="password"
-              placeholder="******************"
-            />
-          </div>
-        </div>
-        <div className="md:flex md:items-center">
-          <div className="md:w-1/3"></div>
-          <div className="md:w-2/3">
-            <button
-              className="shadow bg-purple-500 hover:bg-purple-400 focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="button"
-            >
-              Sign Up
-            </button>
-          </div>
-        </div>
-      </form> */
-});
-//     </div>
-//   </Layout>
 
 export default Index;
