@@ -514,7 +514,7 @@ class Index extends React.Component {
                 <div
                   onClick={() => this.handleOnClick(0)}
                   id="one"
-                  className="flex hover:shadow-2xl cursor-pointer rounded-sm border border-red-900 w-64 py-3"
+                  className="flex hover:shadow-2xl cursor-pointer rounded-lg w-64 py-3"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/ask-a-question.svg?v=2573b7282ac8"
@@ -525,71 +525,141 @@ class Index extends React.Component {
                 </div>
                 <div
                   onClick={() => this.handleOnClick(1)}
-                  className="flex cursor-pointer hover:shadow-2xl p-4"
+                  className="flex cursor-pointer hover:shadow-2xl rounded-lg p-4"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/votes.svg?v=989b3861569f"
                     alt="ask-question-logo"
-                    className="h-12 w-12"
+                    className="h-12 w-12 -ml-2"
                   />
-                  <span className="mt-3 ">Vote on everything</span>
+                  <span className="mt-3 ml-2 ">Vote on everything</span>
                 </div>
                 <div
                   onClick={() => this.handleOnClick(2)}
-                  className="flex hover:shadow-2xl cursor-pointer p-4"
+                  className="flex hover:shadow-2xl cursor-pointer rounded-lg p-4"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/answer.svg?v=801dab051d61"
                     alt="ask-question-logo"
-                    className="h-12 w-12"
+                    className="h-12 w-12 "
                   />
-                  <span className="mt-3 ">Answers question</span>
+                  <span className="mt-3 ml-2 ">Answers question</span>
                 </div>
               </div>
               {/* main content */}
-              <div className="content-center">
+              <div className="w-4/12">
                 <img
                   src={this.state.images[this.state.activeIndex]}
                   alt="logo"
-                  className=""
                 />
-                <p>{this.state.para[this.state.activeIndex]}</p>
+                <p className="text-center text-xl py-8">
+                  {this.state.para[this.state.activeIndex]}
+                </p>
               </div>
               {/* main content over */}
               <div>
                 <div
                   onClick={() => this.handleOnClick(3)}
-                  className="flex hover:shadow-2xl cursor-pointer p-4"
+                  className="flex hover:shadow-2xl rounded-lg cursor-pointer p-4"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/tags.svg?v=f17cc81570e9"
                     alt="ask-question-logo"
-                    className="h-12 w-12"
+                    className="h-12 w-16"
                   />
-                  <span className="mt-3 ">Tage your question</span>
+                  <span className="mt-3 ml-2 ">Tag your question</span>
                 </div>
                 <div
                   onClick={() => this.handleOnClick(4)}
-                  className="flex hover:shadow-2xl cursor-pointer p-4"
+                  className="flex hover:shadow-2xl rounded-lg cursor-pointer p-4"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/accept.svg?v=4e52852c80b1"
                     alt="ask-question-logo"
-                    className="h-12 w-12"
+                    className="h-12 w-16"
                   />
-                  <span className="mt-3 cursor-pointer">Accept an answer</span>
+                  <span className="mt-3 ml-2">Accept an answer</span>
                 </div>
                 <div
                   onClick={() => this.handleOnClick(5)}
-                  className="flex hover:shadow-2xl cursor-pointer p-4"
+                  className="flex hover:shadow-2xl rounded-lg cursor-pointer p-4"
                 >
                   <img
                     src="https://cdn.sstatic.net/Img/home/get-recognized.svg?v=934301e7c620"
                     alt="ask-question-logo"
-                    className="h-12 w-12"
+                    className="h-12 w-16"
                   />
-                  <span className="mt-3 ">Get recognized</span>
+                  <span className="mt-3 ml-2 ">Get recognized</span>
                 </div>
+              </div>
+            </div>
+            <div className="text-center mb-48">
+              <button className="bg-orange-550 text-white text-m py-2 px-4 rounded-md">
+                Create an account
+              </button>
+            </div>
+          </div>
+          <div>
+            <div className="my-8">
+              <h2 className="text-3xl font-bold text-center py-4">
+                Learn and grow with Stack Overflow
+              </h2>
+              <div className="bg-orange-550 rounded-sm m-auto h-2 w-20"></div>
+            </div>
+            <div className="flex mx-16 mb-32 w-11/12">
+              <div className="px-8 w-full">
+                <img
+                  src="https://cdn.sstatic.net/Img/home/developer.svg?v=cd5e5a0ec97c"
+                  alt="logo"
+                />
+                <h4 className="text-lg py-4 font-bold">
+                  Write the script of the future
+                </h4>
+                <p>
+                  Get your coding questions answered to learn, build, and level
+                  up whether you’re beginning with{" "}
+                  <span className="text-indigo-900">JavaScript</span> or a{" "}
+                  <span className="text-indigo-900">React </span>
+                  professional.
+                </p>
+              </div>
+              <div className="px-4 w-full">
+                <img
+                  src="https://cdn.sstatic.net/Img/home/open-source.svg?v=e025bc1244c8"
+                  alt="logo"
+                />
+                <h4 className="text-lg py-4 font-bold">Support open source</h4>
+                <p>
+                  Reach users of your project by following tags, answering
+                  newcomer questions, and empowering experts in the community.
+                  Read the curl project creator’s story. professional.
+                </p>
+              </div>
+              <div className="px-4 w-full">
+                <img
+                  src="https://cdn.sstatic.net/Img/home/advocate.svg?v=a91ad6d1a9bd"
+                  alt="logo"
+                />
+                <h4 className="text-lg py-4 font-bold">
+                  Acquire and share knowledge
+                </h4>
+                <p>
+                  Answer questions and gain insights from an audience of
+                  developers using your technology on Stack Overflow.
+                </p>
+              </div>
+              <div className="px-4 w-full">
+                <img
+                  src="https://cdn.sstatic.net/Img/home/career-switcher.svg?v=b42e46ffdac0"
+                  alt="logo"
+                />
+                <h4 className="text-lg py-4 font-bold">
+                  Find career opportunities
+                </h4>
+                <p>
+                  Create a profile that shows off your expertise and credentials
+                  to help you make your next move. Start your Developer Story.
+                </p>
               </div>
             </div>
           </div>
